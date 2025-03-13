@@ -20,6 +20,7 @@ aws-lambda-parameter-store
 ## Step 4: IAM Role
 - Log role will be default attached when creating a new Lambda Function.
 - Create 2 IAM Role which will be attached to the Lambda Function. 
+- Below Json files is base on all region and all account. You can further tighten it using specific region and account.
 
 **Role 1: SSMAccessForApp**
 ```
